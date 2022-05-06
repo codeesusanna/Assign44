@@ -1,0 +1,9 @@
+empname={1:['Samuel'],2:['Daniel'],3:['Smriti']}
+empdesign={1:['technical design'],2:['web design'],3:['networks design']}
+empdoj={1:['jan 4'],2:['feb 10'],3:['may 1']}
+empsalary={1:[50000],2:[75000],3:[45000]}
+n=int(input("enter employee no:"))
+print("name of the employee:",empname[n][0])
+print("Design of the emplolyee:",empdesign[n][0])
+print("Employee date of joining:",empdoj[n][0])
+print("Employee salary:",empsalary[n][0])
